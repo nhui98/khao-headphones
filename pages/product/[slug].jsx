@@ -39,7 +39,7 @@ const ProductDetails = ({ product, products }) => {
                   i === index ? 'small-image selected-image' : 'small-image'
                 }
                 onMouseEnter={() => setIndex(i)}
-                key={image}
+                key={i}
               />
             ))}
           </div>
