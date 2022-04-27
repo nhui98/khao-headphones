@@ -10,7 +10,7 @@ import { Product } from '../../components';
 
 import { useState } from 'react';
 
-import { useStateContext } from '../../context/StateContext';
+import { useStateContext } from '../../lib/StateContext';
 
 const ProductDetails = ({ product, products }) => {
   const [index, setIndex] = useState(0);
